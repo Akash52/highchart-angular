@@ -1,0 +1,19 @@
+<div class="app-container">
+  <header class="app-header">
+    <h1>{{ title }}</h1>
+    <p>A demonstration of Highcharts integration with Angular 18</p>
+    
+    <nav class="app-nav">
+      <a routerLink="/chart" routerLinkActive="active">Basic Chart</a>
+      <a routerLink="/draggable-elements" routerLinkActive="active">Draggable Elements</a>
+    </nav>
+  </header>
+
+  <main class="app-main">
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer class="app-footer">
+    <p>Built with Angular 18 and Highcharts</p>
+  </footer>
+</div>
